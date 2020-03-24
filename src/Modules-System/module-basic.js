@@ -5,3 +5,5 @@
     -> From each file we can export variables, functions, objects, array 
        and import it in another file for use.
 */
+/*--------------------------- Export variable------------------------------*/
+export let message=" Welcome to module system in ES6 ";
