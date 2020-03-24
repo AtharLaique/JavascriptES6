@@ -5,6 +5,11 @@
     -> From each file we can export variables, functions, objects, array 
        and import it in another file for use.
 */
+/*--------------------------- What we export and import?  ------------------------------
+    -> When we exporting some thing( variable , function )we not exporting that thing
+       explicitly , we just exporting reference of that thing.
+    -> If something change with that thing ( assigned new vale) we will get that updated value; 
+*/
 /*--------------------------- Export variable------------------------------*/
  let message="Welcome to module system in ES6 ";
 /*--------------------------- Export Function------------------------------*/
