@@ -13,8 +13,12 @@ console.log("welcome in es6 / es7")
 /*-------------------------  combine import of default and named export ----------------------------
     -> We can also import named and defult export like this 
 */
-import user ,{message as msg ,test} from './Modules-System/module-basic';
-console.log(msg);
+// import user ,{message as msg ,test} from './Modules-System/module-basic';
+/*-------------------------  import * ----------------------------
+    -> with * we can import every thing from a module without knowing what he exporting 
+*/
+import * as imported from './Modules-System/module-basic';
+console.log(imported.message);
 //we can call fuunction from here directly after importing
-test();
-console.log(user) 
+imported.test();
+console.log(imported.default) 
