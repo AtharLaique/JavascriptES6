@@ -6,8 +6,13 @@
        and import it in another file for use.
 */
 /*--------------------------- Export variable------------------------------*/
-export let message="Welcome to module system in ES6 ";
+ let message="Welcome to module system in ES6 ";
 /*--------------------------- Export Function------------------------------*/
-export function test(){
+ function test(){
     console.log("Export function in ES6")
 }
+/*--------------------------- Combine export ------------------------------
+    -> ES6 allows us to combine export insted of explicit export 
+       if we are exporting more then one thing from a module. 
+*/
+export {message , test}
