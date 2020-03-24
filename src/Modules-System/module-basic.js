@@ -31,5 +31,7 @@ let userData={
     age:25,
 }
 
+//This export is called named export
 export {message , test};
+//This is called un-named export
 export default userData;
