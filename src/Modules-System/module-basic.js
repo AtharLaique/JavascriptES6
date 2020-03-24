@@ -20,5 +20,16 @@
     -> ES6 allows us to combine export insted of explicit export 
        if we are exporting more then one thing from a module. 
 */
+/*--------------------------- Default export and import ------------------------------
+    -> Default export make more dynamic to import something.
+    -> With the help of default export we can import that thing 
+       without specifying the actual name of that thing. 
+    ->  
+*/
+let userData={
+    name:'Athar Laique',
+    age:25,
+}
 
-export {message , test}
+export {message , test};
+export default userData;
