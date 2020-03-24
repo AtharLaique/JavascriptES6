@@ -6,4 +6,8 @@
        and import it in another file for use.
 */
 /*--------------------------- Export variable------------------------------*/
-export let message=" Welcome to module system in ES6 ";
+export let message="Welcome to module system in ES6 ";
+/*--------------------------- Export Function------------------------------*/
+export function test(){
+    console.log("Export function in ES6")
+}
