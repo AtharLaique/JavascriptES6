@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/AtharLaique/JavascriptES6/issues"
   },
-  "homepage": "https://github.com/AtharLaique/JavascriptES6#readme"
+  "homepage": "https://github.com/AtharLaique/JavascriptES6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
