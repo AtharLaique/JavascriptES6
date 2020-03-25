@@ -4,6 +4,8 @@
     -> Each file that export somthing is called Module.
     -> From each file we can export variables, functions, objects, array 
        and import it in another file for use.
+    -> Modules are always in Strict Mode (no need to define "use strict")
+    -> Modules don't have a shared, global Scope. Instead each Module has its own Scope
 */
 /*--------------------------- What we export and import?  ------------------------------
     -> When we exporting some thing( variable , function )we not exporting that thing
