@@ -64,6 +64,11 @@ function variablesFunc() {
   num = "I am representing hoisting";
   console.log(num);
   var num;
+   /*------------------        var ( function scope )        --------------
+    -> We can declare variable using var as we declare in ES5.
+    -> var declarations are globally scoped or function scoped.
+    -> var variables can be updated and re-declared within its scope.
+    */
 
 }
 export default variablesFunc;
