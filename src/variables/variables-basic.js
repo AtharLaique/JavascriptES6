@@ -30,6 +30,28 @@ function variablesFunc(){
          console.log(age)
      }
      console.log(age)
-     
+     /*------------------        const ( can't reassign value but can change )        --------------
+    -> const is another way to decalre variable.
+    -> With this way we can declare variable with constent value that can not be reassign.
+    -> const hold the pointer not a value. That's way we can't re assign this pointer.
+    -> const is also a block scop variable
+*/
+//#Example 1
+    //We can't reassign
+     const message=" You can't reaasing me";
+           //we get error here and program will stop.
+           //Un comment and check
+           //message="reassigning";
+           console.log(message)
+//#Example 2
+     //But we can update the value
+     const monthDays=[31,28,31];
+     if(true){
+        const monthDays=[31];
+     }
+           console.log(monthDays);
+    //Here we are going to update the value not reassing
+           monthDays.push(30)
+           console.log(monthDays)
 }
 export default variablesFunc;
