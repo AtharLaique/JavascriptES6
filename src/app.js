@@ -4,6 +4,7 @@ import variablesFunc from './variables/variables-basic';
 import arrowFunction from './Arrow functions/arrow-function';
 import restSpred from './rest-and-spred/restSpred';
 import dataStructure from './data-Structures/dataStructure';
+import loops from './Loops/loops';
 /*--------------------------------Modules---------------------------------*/
 moduleFunc();
 /*--------------------------------Variables---------------------------------*/
@@ -14,3 +15,5 @@ arrowFunction();
 restSpred();
 /*-------------------------------- DataStructure  ---------------------------------*/
 dataStructure();
+/*-------------------------------- Loops ---------------------------------*/
+loops();
