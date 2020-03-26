@@ -34,7 +34,7 @@ let arrowFunction=()=>{
    console.log(arrowFunc4(10))
    //Example 5
    // arrow function as argument
-   setTimeout(()=>console.log("I am arrow function as argument"),1000)
+   //setTimeout(()=>console.log("I am arrow function as argument"),1)
    //Example 6
    // this key word
    let Ob={

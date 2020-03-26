@@ -1,3 +1,4 @@
+import callback from './callback';
 const asynchronusJs=()=>{
 console.log(" - - - - - - - - - - - - - Asynchronus Javascript - - - - - - - - - - - - - - - -");
 /*
@@ -17,5 +18,6 @@ console.log(" - - - - - - - - - - - - - Asynchronus Javascript - - - - - - - - -
     
     ->  https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff 
 */
+    callback();
 }
 export default asynchronusJs;
