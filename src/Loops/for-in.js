@@ -1,4 +1,5 @@
 const forIn=()=>{
+    console.log('----------------for in -----------------------------');
     // For in loopp makes easy to itrate object,
     // It return the keys in case of object an return index in case of array or string
 
