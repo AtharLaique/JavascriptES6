@@ -5,6 +5,7 @@ import arrowFunction from './Arrow functions/arrow-function';
 import restSpred from './rest-and-spred/restSpred';
 import dataStructure from './data-Structures/dataStructure';
 import loops from './Loops/loops';
+import asynchronusJs from './AsynchronusJS/Asynchronus';
 /*--------------------------------Modules---------------------------------*/
 moduleFunc();
 /*--------------------------------Variables---------------------------------*/
@@ -17,3 +18,5 @@ restSpred();
 dataStructure();
 /*-------------------------------- Loops ---------------------------------*/
 loops();
+/*-------------------------------- Asynchronus Javascript ---------------------------------*/
+asynchronusJs();
