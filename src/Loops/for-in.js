@@ -18,7 +18,7 @@ const forIn=()=>{
     //forIn behave with this string as array
     //It return index one by one and we can itrate on this string through index 
     let name="Athar laique";
-    for (let index of name)
+    for (let index in name)
     {
         //get chracter
         let char=name[index]
